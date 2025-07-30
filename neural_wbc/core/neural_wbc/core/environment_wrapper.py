@@ -42,7 +42,7 @@ class EnvironmentWrapper:
         """Resets environment specified by env_ids."""
         raise NotImplementedError
 
-    def get_observations(self) -> torch.Tensor:
+    def get_observations(self):
         """Gets policy observations for each environment based on the mode."""
         if self._mode.is_distill_mode():
             return self.get_student_observations()

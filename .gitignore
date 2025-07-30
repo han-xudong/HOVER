@@ -2,4 +2,8 @@
 *.egg-info
 logs/
 /data/
+neural_wbc/data/data/motions
+neural_wbc/data/data/policy
 third_party/human2humanoid
+test.ipynb
+.vscode/
